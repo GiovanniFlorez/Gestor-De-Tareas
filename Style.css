@@ -1,0 +1,42 @@
+body{
+    background-color:cadetblue;
+}
+.formulario-agregar {
+    margin-bottom: 20px;
+    border: 4px solid #000;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 0 auto;
+}
+.boton{
+    background-color: rgb(53, 168, 168);
+    display: flex;
+    margin: 0 auto;
+}
+.contenedorTareas {
+    display: flex;
+    justify-content: space-between;
+    border: 4px solid #000;
+    padding: 20px;
+    margin-top: 20px;
+}
+.columna {
+    background-color:rgb(78, 129, 131);
+    width: 45%;
+    border: 8px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.tarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 4px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight:bold;
+}
+
+.realizada { text-decoration: line-through; }
